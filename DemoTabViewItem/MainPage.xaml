@@ -24,7 +24,7 @@
                                 <VisualStateGroup x:Name="CommonStates">
                                     <VisualState x:Name="Normal">
                                         <VisualState.Setters>
-                                            <Setter Target="TabContainer.Background" Value="{StaticResource MyTabViewItem}"/>
+                                            <Setter Target="TabContainer.Background" Value="{ThemeResource MyTabViewItem}"/>
                                             <Setter Target="ContentPresenter.Foreground" Value="Gray"/>
                                             <Setter Target="IconControl.Foreground" Value="{ThemeResource TabViewItemIconForeground}"/>
                                             <Setter Target="CloseButton.Background" Value="{ThemeResource TabViewButtonBackground}"/>
@@ -51,7 +51,7 @@
                                     </VisualState>
                                     <VisualState x:Name="Selected">
                                         <VisualState.Setters>
-                                            <Setter Target="TabContainer.Background" Value="{StaticResource MyTabViewItemSelected}"/>
+                                            <Setter Target="TabContainer.Background" Value="{ThemeResource MyTabViewItemSelected}"/>
                                             <Setter Target="ContentPresenter.Foreground" Value="{ThemeResource TabViewItemHeaderForegroundSelected}"/>
                                             <Setter Target="IconControl.Foreground" Value="{ThemeResource TabViewItemIconForegroundSelected}"/>
                                             <Setter Target="CloseButton.Background" Value="{ThemeResource TabViewButtonBackgroundActiveTab}"/>
@@ -61,7 +61,7 @@
                                     </VisualState>
                                     <VisualState x:Name="PointerOverSelected">
                                         <VisualState.Setters>
-                                            <Setter Target="TabContainer.Background" Value="{StaticResource MyTabViewItemPointerOverSelected}"/>
+                                            <Setter Target="TabContainer.Background" Value="{ThemeResource MyTabViewItemPointerOverSelected}"/>
                                             <Setter Target="ContentPresenter.Foreground" Value="{ThemeResource TabViewItemHeaderForegroundPointerOver}"/>
                                             <Setter Target="IconControl.Foreground" Value="{ThemeResource TabViewItemIconForegroundPointerOver}"/>
                                             <Setter Target="CloseButton.Background" Value="{ThemeResource TabViewButtonBackgroundActiveTab}"/>
@@ -70,7 +70,7 @@
                                     </VisualState>
                                     <VisualState x:Name="PressedSelected">
                                         <VisualState.Setters>
-                                            <Setter Target="TabContainer.Background" Value="{StaticResource MyTabViewItemPressedSelected}"/>
+                                            <Setter Target="TabContainer.Background" Value="{ThemeResource MyTabViewItemPressedSelected}"/>
                                             <Setter Target="ContentPresenter.Foreground" Value="{ThemeResource TabViewItemHeaderForegroundPressed}"/>
                                             <Setter Target="IconControl.Foreground" Value="{ThemeResource TabViewItemIconForegroundPressed}"/>
                                             <Setter Target="CloseButton.Background" Value="{ThemeResource TabViewButtonBackgroundActiveTab}"/>
@@ -271,7 +271,7 @@
                     <TextBlock Text="This is Tab #1 (NOT styled)" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
             </controls:TabViewItem>
-            <controls:TabViewItem Header="Tab #2 (STYLED)" Style="{StaticResource TabViewItemStyle1}">
+            <controls:TabViewItem Header="Tab #2 (STYLED)" Style="{ThemeResource TabViewItemStyle1}">
                 <Grid>
                     <TextBlock Text="This is Tab #2 and it has a custom style" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" VerticalAlignment="Center"/>
                 </Grid>
