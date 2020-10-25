@@ -1,0 +1,72 @@
+﻿<Application
+    x:Class="DemoTabViewItem.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DemoTabViewItem">
+
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
+            </ResourceDictionary.MergedDictionaries>
+            <ResourceDictionary.ThemeDictionaries>
+                <ResourceDictionary x:Key="Default">
+                    
+                    <SolidColorBrush x:Key="MyTabViewItem"
+                                  Color="Pink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemContent"
+                                  Color="Pink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemSelected"
+                                  Color="DeepPink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPointerOverSelected"
+                                  Color="OrangeRed"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPressedSelected"
+                                  Color="Cyan"/>
+
+                </ResourceDictionary>
+
+                <ResourceDictionary x:Key="Dark">
+
+                    <SolidColorBrush x:Key="MyTabViewItem"
+                                  Color="LightGreen"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemContent"
+                                  Color="LightGreen"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemSelected"
+                                  Color="Green"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPointerOverSelected"
+                                  Color="DarkGreen"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPressedSelected"
+                                  Color="ForestGreen"/>
+
+                </ResourceDictionary>
+
+                <ResourceDictionary x:Key="Light">
+                    <SolidColorBrush x:Key="MyTabViewItem"
+                                  Color="Pink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemContent"
+                                  Color="Pink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemSelected"
+                                  Color="DeepPink"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPointerOverSelected"
+                                  Color="OrangeRed"/>
+
+                    <SolidColorBrush x:Key="MyTabViewItemPressedSelected"
+                                  Color="Cyan"/>
+
+                </ResourceDictionary>
+
+            </ResourceDictionary.ThemeDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
